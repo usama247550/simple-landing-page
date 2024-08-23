@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p,
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-image {
+  max-width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.main-heading {
+  margin-left: 2%;
+  margin-top: 1.5rem; /* 25px */
+  margin-bottom: 0.5rem; /* 5px */
+}
+
+.prag {
+  margin-top: 1.25rem; /* 20px */
+  margin-left: 2%;
+  color: rgb(84, 84, 84);
+}
+
+.prepration-box {
+  margin-left: 2%;
+  margin-top: 1.5rem; /* 25px */
+  padding: 2rem; /* 30px */
+  width: 96%;
+  background: rgb(250, 224, 228);
+}
+
+.prepration-box > h2 {
+  color: rgb(195, 9, 9);
+  margin-bottom: 0.5rem; /* 8px */
+}
+
+.prepration-box > ul li {
+  list-style-position: inside;
+  line-height: 2;
+}
+
+.ingredients {
+  margin-top: 1.5rem; /* 25px */
+  margin-left: 2%;
+  line-height: 2.2;
+}
+
+.ingredients > h1{
+    color: maroon;
+  }
+
+.ingredients > ul li {
+  list-style-position: inside;
+}
+
+.line{
+    width: 90%;
+    margin: 0 auto;
+    height: 3px;
+    margin-top: 25px;
+    color:gray;
+}
+
+
+
+.Instructions {
+  margin-top: 1.5rem; /* 25px */
+  margin-left: 2%;
+  line-height: 2.2;
+}
+
+.Instructions > h1{
+    color: maroon;
+  }
+
+.Instructions > ul li {
+  list-style-position: inside;
+  list-style-type:square;
+  text-align:start;
+}
+
+
+.nutrion {
+  margin-top: 1rem;
+  margin-bottom: 1rem; /* 25px */
+  margin-left: 2%;
+  line-height: 2.2;
+}
+
+.nutrion > h1{
+    color: maroon;
+  }
+
+  .prag {
+    margin-top: 1rem; /* 20px */
+    margin-left: 2%;
+    color: rgb(84, 84, 84);
+  }
+  
+.nutrion > ul li {
+  list-style-position: inside;
+  list-style-type:square;
+  text-align:start;
+}
+
